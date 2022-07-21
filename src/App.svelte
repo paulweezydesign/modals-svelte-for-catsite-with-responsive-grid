@@ -19,7 +19,7 @@
 	<script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 <section> 
-<main class="container mx-auto w-[100vw] flex flex-row space-x-4">
+<main class="container mx-auto w-[100vw] grid grid-cols-4 space-x-4">
 
 
 <button class="bg-transparent" on:click={() => (toggleModal(Component1))}>
